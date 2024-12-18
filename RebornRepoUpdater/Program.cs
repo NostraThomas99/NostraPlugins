@@ -12,12 +12,7 @@ class Program
 
     public static List<KnownRepo> KnownRepos =
     [
-        new KnownRepo("RotationSolverReborn", "RotationSolver"),
-        new KnownRepo("BossModReborn", "BossModReborn"),
-        new KnownRepo("ActionTimelineReborn", "ActionTimelineEx"),
-        new KnownRepo("EasyZoomReborn", "EasyZoomReborn"),
-        new KnownRepo("GatherBuddyReborn", "GatherbuddyReborn"),
-        new KnownRepo("RebornToolbox", "RebornToolbox"),
+        new KnownRepo("AllaganAssistantNode", "AllaganAssistantNode", "NostraThomas99")
     ];
 
     static async Task Main(string[] args)
