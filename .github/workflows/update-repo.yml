@@ -28,7 +28,7 @@ jobs:
       - name: Update JSON using .NET tool
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: dotnet run --project RebornRepoUpdater --path "./pluginmaster.json" --token "${{ secrets.GITHUB_TOKEN }}"
+        run: dotnet run --project NostraPlugins --path "./pluginmaster.json" --token "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Commit and push if changes
         run: |
