@@ -1,0 +1,39 @@
+name: Update Dalamud Plugin Repository
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Run at the start of every hour
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-json:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build project
+        run: dotnet build --configuration Release
+
+      - name: Update JSON using .NET tool
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet run --project RebornRepoUpdater --path "./pluginmaster.json" --token "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update Dalamud repository JSON" -a || echo "No changes to commit"
+          git push
