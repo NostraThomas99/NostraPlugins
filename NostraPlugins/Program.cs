@@ -12,7 +12,8 @@ class Program
 
     public static List<KnownRepo> KnownRepos =
     [
-        new KnownRepo("Scrounger", "Scrounger", "NostraThomas99")
+        new KnownRepo("Scrounger", "Scrounger", "NostraThomas99"),
+        new KnownRepo("SupermarketSweep", "SupermarketSweep", "NostraThomas99"),
     ];
 
     static async Task Main(string[] args)
