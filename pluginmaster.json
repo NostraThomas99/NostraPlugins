@@ -64,6 +64,6 @@
     "AssemblyVersion": "1.0.0.2",
     "DownloadLinkUpdate": "https://github.com/NostraThomas99/SupermarketSweep/releases/download/1.0.0.2/SupermarketSweep.zip",
     "Changelog": "## What's Changed\r\n* Add custom sorting logic to ResultsTable columns by @NostraThomas99 in https://github.com/NostraThomas99/SupermarketSweep/pull/2\r\n\r\n\r\n**Full Changelog**: https://github.com/NostraThomas99/SupermarketSweep/compare/1.0.0.1...1.0.0.2",
-    "DownloadCount": 603
+    "DownloadCount": 604
   }
 ]
