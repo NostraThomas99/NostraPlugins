@@ -88,7 +88,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "IsTestingExclusive": false,
-    "IconUrl": "",
+    "IconUrl": "https://raw.githubusercontent.com/NostraThomas99/BuyHelper/master/logo.png",
     "Punchline": "It ain't no lie, baby: buy, buy, buy...",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/NostraThomas99/BuyHelper/releases/download/1.0.0.0/BuyHelper.zip",
