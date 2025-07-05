@@ -14,6 +14,7 @@ class Program
     [
         new KnownRepo("Scrounger", "Scrounger", "NostraThomas99"),
         new KnownRepo("SupermarketSweep", "SupermarketSweep", "NostraThomas99"),
+        new KnownRepo("BuyHelper", "BuyHelper", "NostraThomas99"),
     ];
 
     static async Task Main(string[] args)
