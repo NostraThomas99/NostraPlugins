@@ -41,8 +41,8 @@
     "InternalName": "SupermarketSweep",
     "Description": "Makes shopping on the Marketboard easier by using Lifestream and vnavmesh to move you between servers automatically while helping you find the best prices.",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 13,
-    "TestingDalamudApiLevel": 13,
+    "DalamudApiLevel": 14,
+    "TestingDalamudApiLevel": 14,
     "Tags": [
       "Marketboard",
       "Sweep",
@@ -60,10 +60,10 @@
     "IconUrl": null,
     "Punchline": "Are you ready to go shopping?!",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/NostraThomas99/SupermarketSweep/releases/download/1.0.1.0/SupermarketSweep.zip",
-    "AssemblyVersion": "1.0.1.0",
-    "DownloadLinkUpdate": "https://github.com/NostraThomas99/SupermarketSweep/releases/download/1.0.1.0/SupermarketSweep.zip",
-    "Changelog": "## What's Changed\r\n* Update project configuration and dependencies for compatibility with Dalamud 13by @NostraThomas99 in https://github.com/NostraThomas99/SupermarketSweep/pull/3\r\n\r\n\r\n**Full Changelog**: https://github.com/NostraThomas99/SupermarketSweep/compare/1.0.0.2...1.0.1.0",
+    "DownloadLinkInstall": "https://github.com/NostraThomas99/SupermarketSweep/releases/download/1.0.2.0/SupermarketSweep.zip",
+    "AssemblyVersion": "1.0.2.0",
+    "DownloadLinkUpdate": "https://github.com/NostraThomas99/SupermarketSweep/releases/download/1.0.2.0/SupermarketSweep.zip",
+    "Changelog": "## What's Changed\r\n* Seven point four by @NostraThomas99 in https://github.com/NostraThomas99/SupermarketSweep/pull/4\r\n\r\n\r\n**Full Changelog**: https://github.com/NostraThomas99/SupermarketSweep/compare/1.0.1.0...1.0.2.0",
     "DownloadCount": 1375
   },
   {
