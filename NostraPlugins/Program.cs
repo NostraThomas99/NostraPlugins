@@ -13,7 +13,7 @@ class Program
     public static List<KnownRepo> KnownRepos =
     [
         new KnownRepo("Scrounger", "Scrounger", "NostraThomas99"),
-        new KnownRepo("SupermarketSweep", "SupermarketSweep", "NostraThomas99"),
+        new KnownRepo("SupermarketSweep", "SupermarketSweep", "NostraThomas99", "SupermarketSweep/SupermarketSweep.json"),
         new KnownRepo("BuyHelper", "BuyHelper", "NostraThomas99"),
     ];
 
